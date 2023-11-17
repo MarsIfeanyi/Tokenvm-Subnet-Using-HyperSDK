@@ -8,7 +8,7 @@ The `tokenvm` using the [Avalanche HyperSDK](https://medium.com/avalancheavax/in
   - [Table of Contents](#table-of-contents)
     - [Completing the consts.go](#completing-the-constsgo)
     - [Registering the Missing Actions](#registering-the-missing-actions)
-    - [Successfully setup my subnet](#successfully-setup-my-subnet)
+    - [Successfully Setup my subnet](#successfully-setup-my-subnet)
   - [Interacting with the Subnet](#interacting-with-the-subnet)
     - [Creating Asset](#creating-asset)
     - [Minting Tokens](#minting-tokens)
@@ -19,6 +19,8 @@ The `tokenvm` using the [Avalanche HyperSDK](https://medium.com/avalancheavax/in
   - [Disclaimer](#disclaimer)
 
 ### Completing the consts.go
+
+`consts/consts.go`
 
 ```go
 const (
@@ -71,6 +73,8 @@ var (
 ```
 
 ### Registering the Missing Actions
+
+`registry/registry.go`
 
 ```go
 // TODO: register action: actions.CreateAsset
@@ -131,7 +135,7 @@ func init() {
 }
 ```
 
-### Successfully setup my subnet
+### Successfully Setup my subnet
 
 - Step 1
 
